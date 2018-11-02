@@ -14,7 +14,7 @@ validSequence = (string) => {
             } else return false  //если закрывающаяся на входе и стэк пустой
         }
     }
-    return stack.length === 0; //если на выходе стэк пустой, то последовательность правильная
+    return stack.length === 0; //если на выходе стэк пустой то всё совпадает
 };
 
-console.log(validSequence(str)); //true
+console.log(validSequence(str));
